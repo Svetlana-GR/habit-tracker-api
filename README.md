@@ -11,3 +11,8 @@
 5. Запустить: `uvicorn app_final:app --reload`
 
 Откройте [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+## Диагностика и логи
+1.curl http://127.0.0.1:8000/health
+2.sudo journalctl -u habitapp -f
+
